@@ -4,10 +4,45 @@
 To develop a convolutional deep neural network (CNN) for image classification and to verify the response for new images.
 
 ##   PROBLEM STATEMENT AND DATASET
-Include the Problem Statement and Dataset.
+Image classification is an important application of Deep Learning and Computer Vision. Manually identifying different types of clothing from images can be time-consuming and may lead to classification errors. Therefore, there is a need for an automated system that can accurately classify clothing images into their respective categories.
+
+In this project, a Convolutional Neural Network (CNN) is developed using PyTorch to classify images from the Fashion-MNIST dataset. The dataset contains 28×28 grayscale images belonging to 10 different clothing categories such as T-shirt, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, and Ankle boot.
+
+The CNN learns important visual features from the training images using convolutional and pooling layers and then classifies the images using fully connected layers. The trained model is evaluated using classification accuracy, confusion matrix, precision, recall, and F1-score. Finally, the model is used to predict the class of new unseen images.
+
+
+The **Fashion-MNIST dataset** is used for training and testing the Convolutional Neural Network (CNN). It contains grayscale images of clothing and footwear belonging to 10 different categories.
+
+| Property | Details |
+|---|---|
+| Dataset | Fashion-MNIST |
+| Training Images | 60,000 |
+| Testing Images | 10,000 |
+| Image Size | 28 × 28 pixels |
+| Image Type | Grayscale |
+| Number of Channels | 1 |
+| Number of Classes | 10 |
+| Task | Multi-class Image Classification |
+
+### Classes
+
+| Label | Category |
+|---:|---|
+| 0 | T-shirt/top |
+| 1 | Trouser |
+| 2 | Pullover |
+| 3 | Dress |
+| 4 | Coat |
+| 5 | Sandal |
+| 6 | Shirt |
+| 7 | Sneaker |
+| 8 | Bag |
+| 9 | Ankle boot |
 
 ## Neural Network Model
-Include the neural network model diagram.
+
+<img width="1024" height="692" alt="Screenshot 2026-08-12 173614" src="https://github.com/user-attachments/assets/4d3857f6-73db-4dab-b65a-dac16da45790" />
+
 
 ## DESIGN STEPS
 ### STEP 1: 
